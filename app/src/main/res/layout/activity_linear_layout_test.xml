@@ -130,7 +130,7 @@
             android:layout_height="wrap_content"
             android:text="four,one"
             android:layout_weight="1"
-            android:textSize="13sp"
+            android:textSize="11sp"
             />
         <Button
             android:id="@+id/button42"
@@ -138,14 +138,14 @@
             android:layout_height="wrap_content"
             android:text="four,two"
             android:layout_weight="1"
-            android:textSize="13sp"
+            android:textSize="11sp"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="four,three"
             android:layout_weight="1"
-            android:textSize="13sp"
+            android:textSize="11sp"
             />
         <Button
             android:id="@+id/button43"
@@ -153,7 +153,7 @@
             android:layout_height="wrap_content"
             android:text="four,four"
             android:layout_weight="1"
-            android:textSize="13sp"
+            android:textSize="11sp"
             />
 
     </LinearLayout>
