@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_alignParentLeft="true"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:text="RED"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:layout_alignParentRight="true"
+        android:text="YELLOW"
+        android:padding="5dp"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="ORANGE"
+        android:padding="5dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_toLeftOf="@id/blue"
+        android:layout_centerInParent="true"
+        android:text="GREEN"
+        android:padding="5dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_centerInParent="true"
+        android:text="BLUE"
+        android:layout_margin="20dp"
+        android:padding="5dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/indigo"
+        android:layout_toRightOf="@id/blue"
+        android:layout_centerInParent="true"
+        android:text="INDIGO"
+        android:padding="5dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/pink"
+        android:text="PINK"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+
+</RelativeLayout>
